@@ -1,10 +1,9 @@
 import numpy as np
 
-arr = np.array([1,2,3])
-print("Array with rank 1: \n", arr)
+x = np.array([1,2,3])
 
-arr = np.array([[1,2,3],[4,5,6],[7,8,9]])
-print("Array with rank 2 \n", arr)
+y = np.array([[1,2,3],[4,5,6],[7,8,9]])
 
-arr = np.array((1,2,3))
-print('\nArray created using '"passed tupple: \n", arr)
+z = np.array((1,2,3))
+
+print(f'Simple array \n{x},\n double array\n {y}\n and array for tuple\n{z}')
