@@ -1,13 +1,5 @@
 import random
 
-def luck_sena():
-    x = random.sample(range(1,61), 6)
-    return sorted(x)
-y = luck_sena()
-print(f"The luck numbers for the megasena are: {y}")
-
-def luck_lotofacil():
-    x = random.sample(range(1,25), 15)
-    return sorted(x)
-y = luck_lotofacil()
-print(f"The luck numbers for the lotofacil are: {y}")
+def luck():
+    x = random.sample(range(1,61),6)
+    
