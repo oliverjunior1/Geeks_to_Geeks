@@ -1,5 +1,6 @@
-x = ['1','2','3','4']
-y = map(int, x)
-# This code change all the numbers that are str to int in list
-print(list(y))
+x = [1,2,3,4,5,6]
+
+y = list(map(float,x))
+
+print(y)
 
