@@ -1,8 +1,8 @@
 import random
 
 def luck():
-    x = random.sample(range(1,61),6)
-    return sorted(x)
+    x = random.sample(range(1,61), 6)
+    y =sorted(x)
+    return print(y)
 
-x = luck()
-print(x)
+luck()
