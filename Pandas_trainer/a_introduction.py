@@ -1,5 +1,7 @@
 import pandas as pd
 
-x = pd.array([1,4,6])
+x = pd.array([1,7,9])
 
-print(x)
+y = pd.Series(x)
+
+print(y)
