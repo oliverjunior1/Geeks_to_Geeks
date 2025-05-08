@@ -1,8 +1,7 @@
 import random
 
-def mega_luck():
-    x = random.sample(range(1,61), 6)
-    y = sorted(x)
-    return print(y)
+def mega():
+    x = sorted(random.sample(range(1,61), 6))
+    return x
 
-mega_luck()
+print(mega())
