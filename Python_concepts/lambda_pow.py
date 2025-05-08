@@ -1,3 +1,3 @@
-x = lambda a, b, c, d: (a*b**c)//d
+x = lambda a, b, c: a**b//c
 
-print(x(5,4,3,10))
+print(x(5,4,4))
