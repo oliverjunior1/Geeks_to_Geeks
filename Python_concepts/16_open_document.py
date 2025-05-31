@@ -1,4 +1,4 @@
-x = open('message.txt', 'r')
+x = open("message.txt", 'r')
 y = x.read()
 
-print(x)
+print(y)
