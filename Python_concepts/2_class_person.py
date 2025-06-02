@@ -1,19 +1,16 @@
 # Big bang, two and a half man and family
 
-class Big_bang:
-    def __init__(self, character, comic_books):
-        self.character = character
-        self.comic_books = comic_books
+class two_and_a_half_man:
+    def __init__(self, name, womans):
+        self.name = name
+        self.womans = womans
+
 
     def __str__(self):
-        return f"The character {self.character} has {self.comic_books} comic-books in his bedroom."
+        return f'The character {self.name} has {self.womans} women in his bedroom'
 
-big_bang = Big_bang("Sheldon", 25000)
-big_bang1 = Big_bang("Leonard", 21000)
-big_bang2 = Big_bang("Howard", 15060)
-big_bang3 = Big_bang("Hajesh", 8008)
+character = two_and_a_half_man("Charlie", 5)
+character2 = two_and_a_half_man("Alan", -2)
 
-print(big_bang)
-print(big_bang1)
-print(big_bang2)
-print(big_bang3)
+print(character2)
+print(character)
