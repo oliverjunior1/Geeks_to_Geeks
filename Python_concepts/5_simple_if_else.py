@@ -1,3 +1,3 @@
-age = 35
+age = 6
 
-print("You're too young") if age < 18 else print("You're an adult.")
+print("You can drive, go away!") if age >=18 else print("You are too yong.")
