@@ -1,16 +1,15 @@
-# Big bang, two and a half man and family
+# family
 
-class two_and_a_half_man:
-    def __init__(self, name, womans):
+class family:
+    def __init__(self, name, age):
         self.name = name
-        self.womans = womans
-
+        self.age = age
 
     def __str__(self):
-        return f'The character {self.name} has {self.womans} women in his bedroom'
+        return f"The name is {self.name} and the age is {self.age} years old."
 
-character = two_and_a_half_man("Charlie", 5)
-character2 = two_and_a_half_man("Alan", -2)
+name1 = family("Joao",12)
+name2 =family("Mariane",4)
 
-print(character2)
-print(character)
+print(name1)
+print(name2)
