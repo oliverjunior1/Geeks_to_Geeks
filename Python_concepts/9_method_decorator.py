@@ -1,13 +1,13 @@
 # decorations with method
 def fun1(x):
     def fun2(*args, **kwargs):
-        print("aaaaaaaaaa")
+        print("###########################")
         x(*args, **kwargs)
-        print('bbbbbbbbbb')
+        print("###########################")
     return fun2
 
 @fun1
-def greeting(name, age):
+def greetings(name):
     print(f"Hello {name}")
 
-greeting('Joaquim', 42)
+greetings("Joaquim Rodrigues")
