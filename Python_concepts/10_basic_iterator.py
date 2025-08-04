@@ -1,11 +1,6 @@
-name = "Joao Pedro"
+name = 'Alyne'
 it = iter(name)
 
-print(next(it))
-print(next(it))
-print(next(it))
-print(next(it))
-print(next(it))
 print(next(it))
 print(next(it))
 print(next(it))
