@@ -3,4 +3,4 @@
 
 key = True
 
-print("You can't enter without the key.") if key==False else print("You can pass. Welcome to your home.")
+print("You can enter to this house") if key==True else print("You can't enter to this house.")
