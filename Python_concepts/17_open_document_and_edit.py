@@ -1,7 +1,9 @@
-x = open('message2.txt', 'w')
-x.write("Jesus is the way, the truth and the life!")
+x = open('message3.txt', 'w')
+
+x.write('Jesus is so great!!!')
+
 x.close()
 
-x = open('message2.txt', 'r')
-y = x.read()
-print(y)
+x = open('message3.txt', 'r')
+print(x.read())
+x.close()
