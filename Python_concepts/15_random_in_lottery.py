@@ -1,7 +1,8 @@
 import random
 
-def loto_facil():
-    x = sorted(random.sample(range(1,26), 15))
-    return x
+def mega():
+    x = sorted(random.sample(range(1,61),6))
+    return print(x)
 
-print(loto_facil())
+mega()
+
