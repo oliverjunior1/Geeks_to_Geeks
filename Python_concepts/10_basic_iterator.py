@@ -1,8 +1,9 @@
-name = 'Alyne'
+name = "Alyne"
+
 it = iter(name)
 
-print(next(it))
-print(next(it))
-print(next(it))
-print(next(it))
-print(next(it))
+print(it.__next__())
+print(it.__next__())
+print(it.__next__())
+print(it.__next__())
+print(it.__next__())
