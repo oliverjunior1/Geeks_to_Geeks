@@ -1,19 +1,15 @@
-# Big_bang_theory
+# Two and a half man
 
-class Big_bang_theory():
-    def __init__(self, name, comic_books):
-        self.name = name
-        self.comic_books = comic_books
+class Two_and_a_half_man:
+    def __init__(self, character, dolls):
+        self.character = character
+        self.dolls = dolls
+
     def __str__(self):
-        return f"The character {self.name} has {self.comic_books} in his bedroom."
+        return f"The character {self.character} has {self.dolls} dolls in his bedroom."
 
+charlie = Two_and_a_half_man("Charlie", 2)
+allan = Two_and_a_half_man("Allan", 100)
 
-character = Big_bang_theory('Sheldon', 50000)
-character2 = Big_bang_theory('Leonard', 15135)
-character3 = Big_bang_theory('Rajesh', 8008)
-character4 = Big_bang_theory('Howard', 12000)
-
-print(character)
-print(character2)
-print(character3)
-print(character4)
+print(charlie)
+print(allan)
