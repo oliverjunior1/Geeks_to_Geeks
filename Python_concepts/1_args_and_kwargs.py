@@ -1,15 +1,16 @@
 # args and kwargs with four elements
-#
-# def args_and_kwargs(*args, **kwargs):
-#     print(args, kwargs)
-#
-# args_and_kwargs(1,2,3, a= 1, b=2)
 
-# Do args with arithmetics operations
-def args_args(*args):
+def args_kwargs(*args, **kwargs):
+    print(args, kwargs)
+
+args_kwargs(1,2,3,a=1,b=2, c=3)
+
+#Do args with arithmetics operations
+
+def args_with_arithmetics(*args):
     sum = 0
     for x in args:
         sum += x
-    return sum
+    return print(sum)
 
-print(args_args(10,10,10))
+args_with_arithmetics(10,20,30,40,50)
