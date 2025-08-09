@@ -1,6 +1,11 @@
-import heapq
+nota_1 = float(input("Digite a nota 1: "))
+nota_2 = float(input("Digite a nota 2: "))
 
-x = [1,7,5,7,10,25,100,15,183,2]
+media = (nota_1+nota_2)/2
 
-heapq.heapify(x)
-print("Heap queue", x)
+if media == 10:
+  print("Parabéns")
+elif media >= 5:
+  print("Aprovado")
+else:
+  print("Reprovado")
