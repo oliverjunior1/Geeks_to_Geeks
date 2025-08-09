@@ -1,3 +1,3 @@
-age = 19
+age = 18
 
-print("You can't drive") if age <= 18 else print("You can drive")
+print("You can drive") if age>17 else print("You can't drive")
