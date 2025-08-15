@@ -1,13 +1,16 @@
-# Big Bang Theory
+# class two_and_a_half
 
-class Big_bang:
-    def __init__(self, name, comic_books):
+class Two_and_a_half:
+    def __init__(self, name, doll):
         self.name = name
-        self.comic_books = comic_books
+        self.doll = doll
 
     def __str__(self):
-        return f"The charracter {self.name} has {self.comic_books} in his bedroom."
+        return f"The character {self.name} has {self.doll} dolls in his bedroom."
 
-sheldon = Big_bang("Sheldon", 25000)
+charlie = Two_and_a_half("Charlie", 1)
+Allan = Two_and_a_half("Allan", 25)
 
-print(sheldon)
+print(charlie)
+print(Allan)
+
