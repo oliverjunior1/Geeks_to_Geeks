@@ -1,9 +1,10 @@
 #Do args with arithmetics operations
 
-def args_and_kwargs(*args, **kwargs):
+def args_sum(*args):
     sum = 0
     for x in args:
         sum += x
-    return sum
+    return print(sum)
 
-print(args_and_kwargs(10,20,3,4,50))
+args_sum(10,10,10)
+
