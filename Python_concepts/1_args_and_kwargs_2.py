@@ -4,7 +4,7 @@ def args_sum(*args):
     sum = 0
     for x in args:
         sum += x
-    return print(sum)
+    print(sum)
 
-args_sum(10,10,10)
+args_sum(1,22,57)
 
