@@ -1,9 +1,9 @@
 dicionario = {}
 
 with open('dados.txt', 'r') as arquivo:
-    for linha in arquivo:
-        if ':' in linha:
-            chave, valor = linha.strip().split(':', 1)
+    for linhas in arquivo:
+        if ':' in linhas:
+            chave, valor = linhas.strip().split(':', 1)
             dicionario[chave.strip()] = valor.strip()
 
 print(dicionario)
