@@ -6,4 +6,5 @@ with open('dados.txt', 'r') as arquivo:
             chave, valor = linha.strip().split(':', 1)
             dicionario[chave.strip()] = valor.strip()
 
+
 print(dicionario)
