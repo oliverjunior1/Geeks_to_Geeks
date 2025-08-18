@@ -1,10 +1,7 @@
-dicionario = {}
+name = "Eu me chamo Joaquim, sou apaixonado por Jesus"
 
-with open('dados.txt', 'r') as arquivo:
-    for line in arquivo:
-        if ':' in line:
-            x, y = line.strip().split(':',1)
-            dicionario[x.strip()]=y.strip()
+name_list = name.split(" ")
+name_test = name.strip()
 
-
-print(dicionario)
+print(name_list)
+print(name_test)
