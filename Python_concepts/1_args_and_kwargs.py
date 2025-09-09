@@ -1,5 +1,4 @@
-def kwargs_args(*args, **kwargs):
+def args_kwargs(*args, **kwargs):
     print(args, kwargs)
-while True:
-    x = dict(input("Put the dates: "))
-    print(kwargs_args(x))
+
+args_kwargs(1,2,3, a=1, b=2)
