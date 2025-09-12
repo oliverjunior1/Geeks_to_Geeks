@@ -1,14 +1,18 @@
 # Objetivo: Contar quantas vezes cada palavra aparece em uma frase
 # digitada pelo usuário.
 
-frase = input("Digite uma frase:")
-palavras = frase.split()
-contador = {}
+a = {
+    'x':1,
+    'y':2,
+    'z':3,
+    'w':4
+}
 
-for palavra in palavras:
-    if palavra in contador:
-        contador[palavra] += 1
-    else:
-        contador[palavra] = 1
-
-print("Contagem de palavras:")
+print(a['x'])
+a['b']=5
+print(a)
+del a['b']
+print(a)
+print(a.keys())
+print(a.values())
+print(a.items())
