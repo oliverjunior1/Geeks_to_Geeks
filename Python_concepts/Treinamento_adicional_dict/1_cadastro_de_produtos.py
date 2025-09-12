@@ -1,12 +1,16 @@
+# Objetivo: Criar um dicionário com produtos e seus preços. Permitir ao usuário consultar o preço
+# de um produto digitando o nome.
+
 produtos = {
-    "mouse":50.0,
-    "teclado":120.0,
-    "monitor":899.99
+    "teclado":14.99,
+    "mouse":14.50,
+    "notebook":2599.99,
+    "impressora":399.99
 }
 
-nome = input("Digite o nome do produto: ").lower()
+produto_search = input("Digite o produto para ver o preço? ")
 
-if nome in produtos:
-    print(f"Preço: R$ {produtos[nome]:.2f}")
+if produto_search in produtos:
+    print(produtos[produto_search])
 else:
-    print("Produto não encontrado.")
+    print("Produto inválido")
