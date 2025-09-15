@@ -4,5 +4,8 @@ thisdict = {
     'year':1964
 }
 
-thisdict.pop('model')
+# thisdict.pop('model')
+# print(thisdict)
+
+del thisdict['model']
 print(thisdict)
