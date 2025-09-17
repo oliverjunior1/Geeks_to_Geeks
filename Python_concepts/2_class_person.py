@@ -1,16 +1,19 @@
-# class two_and_a_half
+# class big bang
 
-class Two_and_a_half:
-    def __init__(self, name, doll):
-        self.name = name
-        self.doll = doll
+class Big_bang:
+    def __init__(self, character, comic_books):
+        self.character = character
+        self.comic_books = comic_books
 
     def __str__(self):
-        return f"The character {self.name} has {self.doll} dolls in his bedroom."
+        return f"The character {self.character} has {self.comic_books} comic-books in the plastic, and in his bedroom."
 
-charlie = Two_and_a_half("Charlie", 1)
-Allan = Two_and_a_half("Allan", 25)
+Sheldon = Big_bang("Sheldon", 25000)
+Leonard = Big_bang("Leonard", 19758)
+Howard = Big_bang("Howard", 15001)
+Hajesh = Big_bang("Hajesh", 8008)
 
-print(charlie)
-print(Allan)
-
+print(Sheldon)
+print(Leonard)
+print(Howard)
+print(Hajesh)
