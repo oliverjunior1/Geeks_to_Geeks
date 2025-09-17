@@ -1,4 +1,4 @@
-import pandas
+import pandas as pd
 
 a = [1,2,3]
 print(type(a))
@@ -12,5 +12,5 @@ print(type(c))
 d = {1,2,3}
 print(type(d))
 
-e = pandas.array([1,2,3])
+e = pd.array([1,2,3])
 print(type(e))
