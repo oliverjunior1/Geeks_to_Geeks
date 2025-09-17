@@ -2,6 +2,6 @@ def args_sum(*args):
     sum = 0
     for x in args:
         sum += x
-    print(sum)
+    return sum
 
-args_sum(10,50,75,115)
+print(args_sum(10,10,10,10,10))
