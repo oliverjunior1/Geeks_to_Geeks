@@ -5,8 +5,8 @@ while True:
 
     calculo = lambda x,y,z: (x**y)**z
 
-    print(calculo(a, b, c))2
-    
+    print(calculo(a, b, c))
+
 
 
 
