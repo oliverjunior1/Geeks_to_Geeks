@@ -16,5 +16,6 @@ while True:
             dados[chave.strip()] = valor.strip()
 
         kwargs_args(**dados)
+        
     except Exception as e:
         print("Erro ao processar os dados:", e)
