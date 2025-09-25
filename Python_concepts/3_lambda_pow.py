@@ -1,11 +1,14 @@
-import math
 while True:
-    a = float(input("Coloque um numero: "))
-    b = float(input("Coloque outro numero: "))
-    c = float(input("Coloque um outro numero: "))
+    a = float(input("Put a number: "))
+    b = float(input("Put another number: "))
+    c = float(input("Put other number: "))
 
-    x = lambda a, b, c: math.pow((a, b),c)
-    print(x)
+    calculo = lambda x,y,z: (x**y)**z
+
+    print(calculo(a, b, c))2
+    
+
+
 
 
 
