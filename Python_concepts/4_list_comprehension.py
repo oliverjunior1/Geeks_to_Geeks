@@ -1,5 +1,5 @@
-x = [1,2,3,4,5,6]
+x = [1,2,3,4,5]
 
-x_4 = [a**4 for a in x]
+x_2 = [a**2 for a in x]
 
-print(x_4)
+print(x_2)
