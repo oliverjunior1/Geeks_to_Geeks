@@ -1,5 +1,3 @@
-x = [10,20,30,40]
+x = [10,11,12,13,14]
 
-y = list(map(lambda a:a**3,x))
-
-print(y)
+y = map(list(lambda a: a**3, x))
