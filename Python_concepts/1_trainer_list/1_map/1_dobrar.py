@@ -1,7 +1,7 @@
 def dobrar(x):
-    return x*2
+    return x**3
 
-numeros = [1,2,3,4,5]
-resultado = map(dobrar, numeros)
+a = [10,15,20,25]
+x = map(dobrar, a)
 
-print(list(resultado))
+print(list(x))
