@@ -1,7 +1,8 @@
-def dobrar(x):
+def triplicar(x):
     return x**3
 
-a = [10,15,20,25]
-x = map(dobrar, a)
+y = [1,2,3,4,5]
 
-print(list(x))
+z = map(triplicar, y)
+
+print(list(z))
