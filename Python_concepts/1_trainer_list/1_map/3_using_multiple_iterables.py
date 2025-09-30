@@ -1,6 +1,6 @@
-a = [1,2,3,4,5]
-b = [6,7,8,9,10]
+a = [15,20,25,30]
+b = [1,2,3,4]
 
-x = map(lambda y, z: y+z, a, b)
+double = map(lambda x,y: x + y, a, b)
 
-print(list(x))
+print(list(double))
