@@ -1,5 +1,5 @@
-lista = ['1', '2', '3', '4']
+lista = ['1', '5', '10']
 
-integer = map(int, lista)
+lista_int = map(int, lista)
 
-print(list(integer))
+print(list(lista_int))
