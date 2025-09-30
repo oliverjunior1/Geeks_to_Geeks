@@ -1,5 +1,5 @@
-names = ["    Joaquim   ", " Alyne",  "    Joao             ", " Mariane "]
+names = ['         Joaquim', 'Joao          ', '  Mariane   ', '   Alyne              ']
 
-limpos = map(str.strip, names)
+x = map(str.strip, names)
 
-print(list(limpos))
+print(list(x))
