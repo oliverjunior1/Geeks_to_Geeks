@@ -1,10 +1,10 @@
 import customtkinter as ctk
 
 window = ctk.CTk()
-window.title("Minha primeira janela")
+window.title("Minha primeira Janela")
 window.geometry("380x200")
 
-rotulo = ctk.CTkLabel(window, text="Jesus is the light!")
-rotulo.pack()
+text = ctk.CTkLabel(window,text="Jesus is the light of the world!")
+text.pack()
 
 window.mainloop()
