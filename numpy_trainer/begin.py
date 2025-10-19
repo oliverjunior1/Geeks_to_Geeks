@@ -8,8 +8,3 @@
 #
 # print(f'Simple array \n{x},\n double array\n {y}\n and array for tuple\n{z}')
 
-import numpy as np
-
-x = np.array([1,2,3,4,5])
-
-print(x)
